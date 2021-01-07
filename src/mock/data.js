@@ -28,30 +28,34 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'allbirds-clone.png',
+    title: 'allbirds-clone',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://allbirds-clone-35d9a.web.app/',
+    repo: 'https://github.com/Stephen-Roach/Better-allbirds', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'Jobbyist.png',
+    title: 'Jobbyist',
+    info:
+      'Jobbyist is a job posting app geared towards individuals who would like to be compensated for doing the things they love and for employers who are looking for others with unique hobbyist skills. ',
+    info2:
+      'Technologies Used: Node.js, Express.js, Passport.js, Postgres, Google OAuth, EJS & deployed using Heroku.',
+    url: 'https://mighty-inlet-78570.herokuapp.com/',
+    repo: 'https://github.com/Stephen-Roach/dreamTeamProject', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'Meme-Orator.png',
+    title: 'Meme-Orator',
+    info:
+      'An image and gif generator where the user is able to search for images & gif’s, add text to them via a text box, position the box wherever appropriate and then save the image and gif to their machine. ',
+    info2:
+      'Technologies Used: HTML, CSS, JavaScript, and jQuery. We utilized 2 different API’s in order to display images as well as Gif’s.',
+    url: 'https://meme-orator.surge.sh/',
+    repo: 'https://github.com/Stephen-Roach/Meme-Orator/tree/Developer', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +63,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'stephenroach21@gmail.com',
 };
 
 // FOOTER DATA
@@ -68,22 +72,22 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/Stephen_Daven',
     },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'codepen',
+    //   url: '',
+    // },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://linkedin.com/in/stephen-d-roach',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/Stephen-Roach',
     },
   ],
 };
