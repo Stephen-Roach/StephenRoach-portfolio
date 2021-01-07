@@ -39,16 +39,17 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'I am passionate about the web and all things technology. Creative software engineer with the ability to pick up new languages and technologies as needed. I primarily enjoy working in a team, sharing ideas, learning and problem-solving.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'Prior to learning software development, I worked as an Inside Sales Consultant for Cummins Inc, where I evaluated technical project specifications and construction drawings to prepare a highly engineered bid package.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree ||
+                    'Outside of work I enjoy spending time with my Siberian Husky and Golden Retriever, hiking and traveling all over the world to learn about different cultures. I am currently on a mission to visit all of the National Parks.'}
                 </p>
-                {resume && (
+                {/* {resume && (
                   <span className="d-flex mt-3">
                     <a
                       target="_blank"
@@ -59,7 +60,7 @@ const About = () => {
                       Resume
                     </a>
                   </span>
-                )}
+                )} */}
               </div>
             </Fade>
           </Col>
