@@ -7,7 +7,7 @@ import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+  const { img, paragraphOne, paragraphTwo, paragraphThree } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -47,7 +47,7 @@ const About = () => {
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphThree ||
-                    'Outside of work I enjoy spending time with my Siberian Husky and Golden Retriever. We love all things outdoors, primarily hiking, and traveling all over the world to learn about different cultures. I am currently on a mission to visit all of the National Parks.'}
+                    'Outside of work I enjoy spending time with my Siberian Husky and Golden Retriever. We love all things outdoors, primarily hiking, and traveling all around the world to learn about different cultures. I am currently on a mission to visit all of our National Parks.'}
                 </p>
                 {/* {resume && (
                   <span className="d-flex mt-3">

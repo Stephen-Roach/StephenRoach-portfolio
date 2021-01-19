@@ -29,9 +29,10 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'allbirds-clone.png',
-    title: 'allbirds-clone',
-    info: '',
-    info2: '',
+    title: 'Allbirds Clone',
+    info: 'Allbirds clone with complete shopping cart functionality utilizing Redux.',
+    info2:
+      'Technologies Used: HTML, CSS, JavaScript, React.js & Redux. Deployed using Google Firebase.',
     url: 'https://allbirds-clone-35d9a.web.app/',
     repo: 'https://github.com/Stephen-Roach/Better-allbirds', // if no repo, the button will not show up
   },
