@@ -37,18 +37,9 @@ const About = () => {
           <Col md={6} sm={12}>
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
-                <p className="about-wrapper__info-text">
-                  {paragraphOne ||
-                    'I am passionate about the web and all things technology. Creative software engineer with the ability to pick up new languages and technologies as needed. I primarily enjoy working in a team, sharing ideas, learning and problem-solving.'}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphTwo ||
-                    'Prior to learning software development, I worked as an Inside Sales Consultant for Cummins Inc, where I evaluated technical project specifications and construction drawings to prepare a highly engineered bid package.'}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphThree ||
-                    'Outside of work I enjoy spending time with my Siberian Husky and Golden Retriever. We love all things outdoors, primarily hiking, and traveling all around the world to learn about different cultures. I am currently on a mission to visit all of our National Parks.'}
-                </p>
+                <p className="about-wrapper__info-text">{paragraphOne || ''}</p>
+                <p className="about-wrapper__info-text">{paragraphTwo || ''}</p>
+                <p className="about-wrapper__info-text">{paragraphThree || ''}</p>
                 {/* {resume && (
                   <span className="d-flex mt-3">
                     <a

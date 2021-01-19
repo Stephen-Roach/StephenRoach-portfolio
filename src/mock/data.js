@@ -17,10 +17,13 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.JPG',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  img: 'profilePic.png',
+  paragraphOne:
+    'I am passionate about the web and all things technology. Creative software engineer with the ability to pick up new languages and technologies as needed. I primarily enjoy working in a team, sharing ideas, learning and problem-solving.',
+  paragraphTwo:
+    'Prior to learning software development, I worked as an Inside Sales Consultant for Cummins Inc, where I evaluated technical project specifications and construction drawings to prepare a highly engineered bid package.',
+  paragraphThree:
+    'Outside of work I enjoy spending time with my Siberian Husky and Golden Retriever. We love all things outdoors, primarily hiking, and traveling all around the world to learn about different cultures. I am currently on a mission to visit all of our National Parks.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
