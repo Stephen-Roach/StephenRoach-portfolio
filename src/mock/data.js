@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profilePic.png',
+  img: 'Stephen-w-dogs.jpeg',
   paragraphOne:
     'I am passionate about the web and all things technology. Creative software engineer with the ability to pick up new languages and technologies as needed. I primarily enjoy working in a team, sharing ideas, learning and problem-solving.',
   paragraphTwo:
