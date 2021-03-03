@@ -52,14 +52,14 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'Meme-Orator.png',
-    title: 'Meme-Orator',
+    img: 'TuneChamp.png',
+    title: 'TuneChamp',
     info:
-      'An image and gif generator where the user is able to search for images & gif’s, add text to them via a text box, position the box wherever appropriate and then save the image and gif to their machine. ',
+      'TuneChamp is a music quiz application using the Spotify API. Guess the song out of four options getting only a small clip of the music. Compare your scores with others who have taken the TuneChamp quiz and see if you are the Tune Champion.',
     info2:
-      'Technologies Used: HTML, CSS, JavaScript, and jQuery. We utilized 2 different API’s in order to display images as well as Gif’s.',
-    url: 'https://meme-orator.surge.sh/',
-    repo: 'https://github.com/Stephen-Roach/Meme-Orator/tree/Developer', // if no repo, the button will not show up
+      'Technologies Used: JavaScript, React, React Context API and Postgres for the Database. We utilized the Spotify API for the music as well as the user authentication.',
+    url: 'https://tunechamp-client.herokuapp.com/',
+    repo: 'https://github.com/RpowelliV/TuneChamp-Client', // if no repo, the button will not show up
   },
 ];
 
