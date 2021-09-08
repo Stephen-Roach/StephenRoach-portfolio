@@ -2,7 +2,7 @@
 
 ## About
 
-Welcome to my Developer portfolio! Take a look around or check it out live [here](thiswillbethelink).
+Welcome to my Developer portfolio! Take a look around or check it out live [here](https://stephenroach.dev/).
 
 ## Contact
 
